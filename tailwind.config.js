@@ -1,7 +1,24 @@
 /** @type {import('tailwindcss').Config} */
-export const content = ["./src/**/*.{js,jsx,ts,tsx}"];
-export const theme = {
-  extend: {},
-};
-export const plugins = [];
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        // Add your custom colors here
+      },
+    },
+    screens: {
+      'xs': '340px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
+  },
+  plugins: [],
+}
 
