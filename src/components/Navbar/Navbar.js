@@ -3,7 +3,7 @@ import { assets } from '../../assets/assets'
 
 const Navbar = () => {
   return (
-    <nav className="bg-green-200 p-4 md:p-6">
+    <nav className="bg-#C2EFD4 p-4 md:p-6">
       <div className="flex justify-between items-center max-w-7xl mx-auto">
   
         <h1 className="text-2xl text-green-900 font-extrabold px-4 cursor-none">Rivo</h1>
