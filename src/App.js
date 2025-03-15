@@ -6,6 +6,7 @@ import BestSelling from './Components/BestSelling/BestSelling';
 import Product from './Components/Product/Product';
 import Offer from './Components/Offer/Offer';
 import Designer from './Components/Designer/Designer';
+import Feedback from './Components/Feedback/Feedback'; 
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Product />
       <Offer />
       <Designer />
+      <Feedback />
       <Footer />
     </div>
   )

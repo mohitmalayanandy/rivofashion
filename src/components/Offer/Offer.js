@@ -3,7 +3,7 @@ import { styles_list } from '../../assets/assets'
 
 const Offer = () => {
   return (
-    <div className='flex m-10 p-10 bg-blue-200 gap-10'>
+    <div className='flex m-14 mt-10 p-10 bg-blue-200 gap-10'>
       <div>
         <img src={styles_list[4].image} alt="" className='h-[400px] w-[350px]'/>
       </div>

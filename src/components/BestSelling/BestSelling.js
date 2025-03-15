@@ -5,9 +5,9 @@ const BestSelling = () => {
   return (
     <div className="px-4 py-10">
 
-      <div className="text-center mb-6">
+      <div className="text-center mb-1">
         <h1 className="text-3xl font-bold text-green-900">Best Selling</h1>
-        <p className="text-green-700 mt-2">
+        <p className="text-green-700 m-5">
           Get in on the trend with our curated selection of best-selling styles.
         </p>
       </div>
